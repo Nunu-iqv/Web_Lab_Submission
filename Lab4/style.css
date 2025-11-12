@@ -1,0 +1,92 @@
+/* ===== Basic Page Style ===== */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f8ff;
+    color: #333;
+    text-align: center;
+}
+
+/* ===== Header ===== */
+header {
+    background-color: #007acc;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* ===== Navigation Bar ===== */
+nav {
+    background-color: #005b99;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: inline-block;
+    margin: 10px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+nav a:hover, nav a:active {
+    background-color: #3399ff;
+}
+
+/* ===== Sections ===== */
+section {
+    padding: 20px;
+}
+
+/* Center video */
+video {
+    display: block;
+    margin: 0 auto;
+}
+
+/* ===== Contact Form ===== */
+form {
+    display: block;
+    text-align: center;
+    width: 250px;
+    margin: 0 auto;
+}
+input, button {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+}
+button {
+    background-color: #007acc;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #3399ff;
+}
+
+/* ===== Footer ===== */
+footer {
+    background-color: #005b99;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 600px) {
+    nav li {
+        display: block;
+        margin: 5px 0;
+    }
+    form {
+        width: 90%;
+    }
+}

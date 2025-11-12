@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Exercise 4 - My First Webpage</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* Link Styling */
+        a:link { color: #ff8c8c; }     /* unvisited link */
+        a:visited { color: #00FF00; }  /* visited link */
+        a:hover { color: #FF00FF; }    /* mouse over link */
+        a:active { color: #0000FF; }   /* selected link */
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Boboiboy Webpage</h1>
+        <p>This just test Webpage</p>
+    </header>
+
+    <nav>
+    <ul>
+        <li><a href="https://fskm.umt.edu.my/" target="_blank">Home</a></li>
+        <li><a href="https://www.youtube.com/" target="_blank">Video</a></li>
+        <li><a href="https://www.example.com/form" target="_blank">Form</a></li>
+        <li><a href="https://www.example.com/contact" target="_blank">Contact</a></li>
+    </ul>
+</nav>
+
+
+    <section id="home">
+        <h2>About This Page</h2>
+        <p>This page shows Boboiboy. I like Boboiboy</p>
+
+        <p><b><a href="https://monsta.com/" target="_blank">This is Monsta Website. The Official</a></b></p>
+    </section>
+
+    <section id="video">
+        <h2>My Video</h2>
+        <video width="400" height="300" controls>
+            <source src="Boboiboy.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p><em>BoBoiBoy Air BERAKSI - Adu Du & Probe Ditangkap!</em></p>
+    </section>
+
+    <section id="form">
+        <h2>Contact Form</h2>
+        <p>If you like Boboiboy please fill this section below.</p>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" name="gender" value="Male"> Male<br>
+            <input type="radio" name="gender" value="Female"> Female<br><br>
+
+            <label>Favorite Hobbies:</label><br>
+            <input type="checkbox" name="hobby" value="Reading"> Reading<br>
+            <input type="checkbox" name="hobby" value="Gaming"> Gaming<br>
+            <input type="checkbox" name="hobby" value="Sports"> Sports<br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer id="contact">
+        <p>© 2025 IQBAL</p>
+    </footer>
+
+</body>
+</html>
